@@ -1,4 +1,4 @@
-
+source ~/.dotfiles/bashrc_source
 #Aliases
 alias be='bundle exec'
 alias ww='cd www/'

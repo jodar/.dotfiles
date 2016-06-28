@@ -1,0 +1,10 @@
+function update_dotfiles() {
+  echo "Updating ~/.bash_profile..." 
+  source ~/.bash_profile
+  update_symlinks
+  reload_bash_profile
+}
+
+function update_symlinks(){
+ ln -nfs ~/.dotfiles/tmux/tmux.conf ~/.tmux.conf
+}

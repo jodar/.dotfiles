@@ -1,0 +1,5 @@
+touch ~/.bash_profile
+
+source /bashrc_source
+
+update_dotfiles
