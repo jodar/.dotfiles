@@ -8,6 +8,8 @@ alias c='clear'
 alias s='be rails s'
 alias ms='be middleman server'
 
+alias msql='mysql.server start'
+
 source ~/.dotfiles/bash_aliases/git
 
 #Rake
@@ -24,4 +26,5 @@ parse_git_branch() {
 
 }
 
-export PS1="\u@\h \W\[\033[32m\]\$(parse_git_branch)\[\033[00m\]$ "
+export PS1="\u@\h \W\[\033[32m\]\$(parse_git_branch)\[\033[00m\]$ " 
+
